@@ -1,5 +1,6 @@
 # theWyzardq1
 Quarter 1 project
+
 For this Project, I have created a search engine that will be able to return short answers to historical questions.
 
 In order to do this, I used a Wolfram|Alpha API, with a specific endpoint of the Short Answer API.
