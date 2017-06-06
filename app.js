@@ -7,8 +7,12 @@ $('form').submit(function(e) {
   var q = $('#search').val();
   var question = encodeURI(q);
   $.get(api + q, function(data) {
-    $('.answer').html(data);
     console.log(data);
+    if (data.includes('|')) {
+      $('.answer').html("I'm not sure what you meant");
+    } else {
+      $('.answer').html(data);
+    }
   }).fail(function() {
     $('.answer').html("I'm not sure what you meant");
     console.log(data);
