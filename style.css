@@ -162,10 +162,7 @@ a {
   width: 200px;
   height: 100%;
   overflow: scroll;
-}
-.centered{
-  margin: 0px auto;
-  overflow: scroll;
+  font-size: 30px;
 }
 .resultWyzard{
   float: right;

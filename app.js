@@ -1,5 +1,6 @@
 $('.results').hide();
-$('#searchButton').click(function() {
+$('form').submit(function(e) {
+  e.preventDefault();
   $('.front').fadeOut("slow");
   $('.results').fadeIn("slow");
   var api = "http://api.wolframalpha.com/v1/result?appid=WKTJAU-VTRKA29QHA&i=";
@@ -7,7 +8,9 @@ $('#searchButton').click(function() {
   var question = encodeURI(q);
   $.get(api + q, function(data) {
     $('.answer').html(data);
+    console.log(data);
   }).fail(function() {
     $('.answer').html("I'm not sure what you meant");
+    console.log(data);
   });
 });
