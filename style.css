@@ -1,0 +1,178 @@
+body{
+  margin: 0px auto;
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+main {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  margin: 0px auto;
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  bottom: 0px;
+  background-color: blue;
+  color: white;
+  font-family: monospace;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  top: 0px;
+  background-color: blue;
+  color: white;
+  font-family: monospace;
+}
+.links{
+  height: 30px;
+  width: 150px;
+  margin: 40px auto;
+}
+.aboutLink{
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+.contactLink{
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+.logo{
+  margin: 60px auto;
+  height: 280px;
+  width: 180px;
+  padding-right: 50px;
+}
+.logo img{
+  height: 100%;
+  width: 100%;
+}
+
+.inputBox{
+  margin: 10px auto;
+  position: relative;
+  height: 50px;
+  width: 300px;
+}
+
+.tagline{
+  padding: 10px;
+  font-family: cursive;
+  margin: 0px auto;
+  height: 20px;
+  width: 250px;
+}
+#search {
+  margin: 0px auto;
+  position: relative;
+  height: 20px;
+  width: 230px;
+}
+
+#searchButton {
+  margin: 0px auto;
+  position: relative;
+}
+.the_wyzard{
+  height: 50px;
+  width: 500px;
+  margin: 0px auto;
+  font-size: 40px;
+  text-shadow: #fff 0 0 1px,
+    #fff 0 2px 1px, #ddd 0 2px 1px,  #ccc 0 2px 1px,
+    rgba(0,0,0,0.2) 0 2px 1px, rgba(0,0,0,0.1) 0 2px 1px,
+    rgba(0,0,100,0.2) 0 2px 1px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Yanone Kaffeesatz" sans-serif;
+}
+
+.copyright{
+  padding-top: 15px;
+  height: 20px;
+  width: 200px;
+  margin: 0px auto;
+}
+.about{
+font-size: 18px;
+width: 400px;
+}
+
+.contact{
+  font-family: sans-serif;
+  width: 400px;
+  text-align: center;
+}
+
+.return{
+  font-size: 18px;
+  width: 100px;
+  height: 30px;
+  margin: 10px -70px;
+}
+.return2{
+  font-size: 18px;
+  width: 100px;
+  height: 30px;
+  margin: 132px 385px;
+}
+.copyright a {
+  color: white;
+}
+
+a.copyright:visited{
+  color: white;
+}
+
+a {
+  color: blue;
+}
+
+.results{
+  position: relative;
+  height: 350px;
+  width: 500px;
+  border: 2px solid black;
+  margin: 100px auto;
+  display: none;
+}
+.leftside{
+  height: 100%;
+  width: 49%;
+  float: left;
+}
+.answerBox{
+  margin: 75px 10px;
+  width: 49%;
+  height: 50%;
+}
+.answer{
+  text-align: center;
+  margin: 0px auto;
+  width: 200px;
+  height: 100%;
+  overflow: scroll;
+}
+.centered{
+  margin: 0px auto;
+  overflow: scroll;
+}
+.resultWyzard{
+  float: right;
+  width: 230px;
+  height: 100%;
+}
+
+.resultWyzard img{
+  margin: 59px -115px;
+}
