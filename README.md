@@ -10,4 +10,11 @@ This extension will prevent you from logging on to Github, so make sure it is tu
 
 The Wyzard love History, and because he loves it so much he has decided to tell you small bits of information that you ask for.
 
-There are also About, Contact, and Copyright links with INFO about the "Wyzard"
+---------------------------------------------------------
+
+While talking to the Wyzard, try to avoid asking questions that aren't specific or quantifiable. For example: If you asked the Wyzard, "Who made the first computer?", the Wyzard would say "Charles Babbage." However, if you asked the Wyzard "Who was Charles Babbage?" the Wyzard would say "Charles Babbage."
+The reason for this redundancy is not because the Wyzard wishes to mock you, but because there is nothing specifically quantifiable about who Charles Babbage was. But ask when he was born, when he died, what his height was etc. you will get an answer.
+
+---------------------------------------------------------
+
+There are also About, Contact, and Copyright links with INFO about the "Wyzard".

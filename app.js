@@ -8,13 +8,13 @@ $('form').submit(function(e) {
   var question = encodeURI(q);
   $.get(api + q, function(data) {
     if (data.includes("|")) {
-      $('.answer').html("I'm not sure what you meant");
+      $('.answer').html("I'm not sure what you mean");
     } else {
       console.log(data);
       $('.answer').html(data);
     }
   }).fail(function() {
-    $('.answer').html("I'm not sure what you meant");
+    $('.answer').html("I'm not sure what you mean");
     console.log(data);
   });
 });
