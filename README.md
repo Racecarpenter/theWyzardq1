@@ -6,9 +6,11 @@ For this Project, I have created a search engine that will be able to return sho
 In order to do this, I used a Wolfram|Alpha API, with a specific endpoint of the Short Answer API.
 I also had to download the google chrome extension CORS Allow-Control-Allow-Origin and have it enabled to make the request.
 
-This extension will prevent you from logging on to Github, so make sure it is turned off after use of this API.
+The Cross-Origin Resource Sharing (CORS) mechanism gives web servers cross-domain access controls, which enable secure cross-domain data transfers
 
-The Wyzard love History, and because he loves it so much he has decided to tell you small bits of information that you ask for.
+This extension will prevent you from logging on to Github(Or playing Videos on Youtube) so make sure it is turned off after use of this site.
+
+The Wyzard loves History, and because he loves it so much he has decided to tell you small bits of information that you ask for.
 
 ---------------------------------------------------------
 
